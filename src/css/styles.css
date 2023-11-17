@@ -193,17 +193,57 @@ footer .social-media a:focus {
 }
 
 footer .social-text {
-  margin-right: 0.5rem; /* Adjust the right margin to bring the text closer to the icons */
-  display: inline-flex; /* Align the text with icons vertically */
-  align-items: center; /* Center alignment */
+  margin-right: 0.5rem;
+  /* Adjust the right margin to bring the text closer to the icons */
+  display: inline-flex;
+  /* Align the text with icons vertically */
+  align-items: center;
+  /* Center alignment */
 }
 
 footer .social-links {
-  display: inline-flex; /* Align the icons with the text */
-  align-items: center; /* Center alignment */
+  display: inline-flex;
+  /* Align the icons with the text */
+  align-items: center;
+  /* Center alignment */
 }
 
 footer .social-icon {
-  margin: 0 0.5rem; /* Adjust left and right margins to control spacing between icons */
-  text-decoration: none; /* Remove the underline from the links */
+  margin: 0 0.5rem;
+  /* Adjust left and right margins to control spacing between icons */
+  text-decoration: none;
+  /* Remove the underline from the links */
+}
+
+.project-card {
+  margin-bottom: 2rem; /* Space between project cards */
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.project-tags {
+  margin: 1rem 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #0d6efd; /* Bootstrap primary color */
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
